@@ -966,7 +966,7 @@ Script.Functions.FireForkRemote = function(targetCFrame)
 end
 
 Script.Functions.JoinDiscordServer = function()
-    local sInvite = "https://discord.com/invite/voidware"
+    local sInvite = "youtube - RedRoseBlooms"
     
     local function getInviteCode(sInvite)
         for i = #sInvite, 1, -1 do
@@ -1014,8 +1014,8 @@ Script.Functions.JoinDiscordServer = function()
         setclipboard("discord.gg/voidware")
     end)
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Voidware Discord - discord.gg/voidware",
-        Text = "Copied to clipboard (discord.gg/voidware)",
+        Title = "Yt- RedRoseBlooms",
+        Text = "Copied to clipboard",
         Duration = 10,
     })
 end
@@ -4242,13 +4242,9 @@ MenuGroup:AddLabel("Menu bind"):AddKeyPicker("MenuKeybind", { Default = "RightSh
 MenuGroup:AddButton("Join Discord Server", Script.Functions.JoinDiscordServer)
 MenuGroup:AddButton("Unload", function() Library:Unload() end)
 
-CreditsGroup:AddLabel("erchodev#0 - script dev")
-CreditsGroup:AddLabel("Jorsan - Mingle Support & Godmode")
-CreditsGroup:AddLabel("linoria - ui library")
+CreditsGroup:AddLabel("RedRose - script dev")
+CreditsGroup:AddLabel("Rengoku - script dev")
 CreditsGroup:AddLabel("obsidian - ui library")
-CreditsGroup:AddLabel("mspaint v2")
-CreditsGroup:AddLabel("Inf Yield")
-CreditsGroup:AddLabel("Please notify me if you need \n credits (erchodev#0 on discord)")
 
 Library.ToggleKeybind = Options.MenuKeybind
 
