@@ -611,7 +611,7 @@ function Script.Functions.RevealGlassBridge()
         AnnouncementOneLine = true,
         FasterTween = true,
         DisplayTime = 10,
-        AnnouncementDisplayText = "[Voidware]: Safe tiles are green, breakable tiles are red!"
+        AnnouncementDisplayText = "Safe tiles are green, breakable tiles are red!"
     })
 end
 
@@ -623,8 +623,8 @@ Script.Functions.OnLoad = function()
         end
     }
 
-    Script.Functions.EffectsNotification("Voidware - Ink Game loaded!", 5)
-    Script.Functions.EffectsNotification("Join discord.gg/voidware for updates :)", 5)
+    Script.Functions.EffectsNotification("RedRose - Ink Game loaded!", 5)
+    Script.Functions.EffectsNotification("Subscribe Yt channel for updates! :)", 5)
 end
 
 function Script.Functions.EffectsNotification(text, dur)
