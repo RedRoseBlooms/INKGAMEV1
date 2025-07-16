@@ -97,7 +97,7 @@ end
 
 local Window = Library:CreateWindow({
 	Title = "RedRose - Ink Game",
-    Footer = "RedRose Is Op",
+    Footer = "Ink Game {V1}",
 	Center = true,
 	AutoShow = true,
 	Resizable = true,
