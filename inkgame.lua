@@ -2226,10 +2226,10 @@ local GlassBridgeGroup = Tabs.Main:AddLeftGroupbox("Glass Bridge", "bridge") do
 end
 
 local InformationGroup = Tabs.Main:AddRightGroupbox("Information", "info") do
-    InformationGroup:AddLabel("Welcome to Voidware!")
-    InformationGroup:AddLabel("Make sure to join our discord \n server for updates!")
+    InformationGroup:AddLabel("Welcome to RedRose | Ink Game")
+    InformationGroup:AddLabel("Make sure to Subscribe RedRose On Youtube For Updates")
     InformationGroup:AddLabel("")
-    InformationGroup:AddButton("Join Discord Server", Script.Functions.JoinDiscordServer)
+    InformationGroup:AddButton("Enjoy!!", Script.Functions.JoinDiscordServer)
     InformationGroup:AddButton("Unload", function() Library:Unload() end)
 end
 
