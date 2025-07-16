@@ -96,8 +96,8 @@ else
 end
 
 local Window = Library:CreateWindow({
-	Title = "Voidware - Ink Game",
-    Footer = "discord.gg/voidware",
+	Title = "RedRose - Ink Game",
+    Footer = "RedRose Is Op",
 	Center = true,
 	AutoShow = true,
 	Resizable = true,
@@ -275,7 +275,7 @@ function Script.Functions.Alert(message: string, time_obj: number)
 end
 
 function Script.Functions.Warn(message: string)
-    warn("WARN - voidware:", message)
+    warn("WARN - RedRosd:", message)
 end
 
 function Script.Functions.ESP(args: ESP)
